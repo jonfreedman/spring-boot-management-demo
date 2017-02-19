@@ -1,0 +1,6 @@
+management:
+  context-path: /management
+  security:
+    enabled: true
+    roles:
+    - CN=some-group,OU=somewhere,OU=in,OU=ldap,DC=example,DC=com
