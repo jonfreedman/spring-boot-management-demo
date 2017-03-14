@@ -4,3 +4,4 @@ management:
     enabled: true
     roles:
     - CN=some-group,OU=somewhere,OU=in,OU=ldap,DC=example,DC=com
+    - CN=some-other-group,OU=somewhere,OU=in,OU=ldap,DC=example,DC=com
